@@ -10,7 +10,7 @@ WebDriver driver = new FirefoxDriver(); // Version 1.1 :: Firefox
  
 String text_case_id = "TC-001.01";
 String url = "http://www.learn2test.net";
-String title_expected = "learn2test.net";
+String title_expected = "blahblah";
 String param[] = args[0].split("\\|");
 
 driver.get(url);
